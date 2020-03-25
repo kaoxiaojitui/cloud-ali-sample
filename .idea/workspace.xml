@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="714d195f-5a4f-48d9-97e2-6c5a97ccecc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-9001/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-9001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-9001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-9001/src/main/java/com/eric/alibaba/contorller/ProviderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-9001/src/main/java/com/eric/alibaba/contorller/ProviderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-9001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-9001/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,10 +25,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-provider-9001/src/main/java/com/eric/alibaba/contorller/ProviderController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="215">
+              <caret line="25" column="32" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#733#734#0" expanded="true" />
+                <element signature="e#760#761#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -33,17 +39,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-provider-9001/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+            <state relative-caret-position="75">
+              <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/cloud-provider-9001/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+            <state relative-caret-position="166">
+              <caret line="12" column="70" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-provider-9001/src/main/java/com/eric/alibaba/ProviderMain9001.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,10 +84,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-provider-9001/src/main/java/com/eric/alibaba/ProviderMain9001.java" />
         <option value="$PROJECT_DIR$/cloud-provider-9001/src/main/java/com/eric/alibaba/contorller/ProviderContorller.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-9001/src/main/java/com/eric/alibaba/contorller/ProviderController.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-9001/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-provider-9002/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-provider-9002/src/main/java/com/eric/alibaba/Provider9002.java" />
         <option value="$PROJECT_DIR$/cloud-provider-9002/src/main/java/com/eric/alibaba/ProviderMain9002.java" />
@@ -78,7 +95,11 @@
         <option value="$PROJECT_DIR$/cloud-provider-9002/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-consumer-81/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-consumer-81/src/main/java/com/eric/alibaba/config/RestTemplateConfig.java" />
+        <option value="$PROJECT_DIR$/cloud-provider-9001/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-provider-9001/src/main/java/com/eric/alibaba/ProviderMain9001.java" />
+        <option value="$PROJECT_DIR$/cloud-provider-9001/src/main/java/com/eric/alibaba/contorller/ProviderController.java" />
         <option value="$PROJECT_DIR$/cloud-provider-9001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-provider-9001/src/main/resources/bootstrap.yml" />
       </list>
     </option>
   </component>
@@ -127,6 +148,59 @@
               <item name="cloud-alibaba" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud-alibaba" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="cloud-alibaba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-alibaba" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-9001" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-alibaba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-alibaba" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-9001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-alibaba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-alibaba" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-9001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-alibaba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-alibaba" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-9001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-alibaba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-alibaba" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-9001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="alibaba" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-alibaba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-alibaba" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-9001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="alibaba" type="462c0819:PsiDirectoryNode" />
+              <item name="contorller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-alibaba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-alibaba" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-9001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -141,7 +215,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585054666854" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585136499498" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -171,7 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConsumerMain81">
+  <component name="RunManager" selected="Spring Boot.ProviderMain9001">
     <configuration name="ConsumerMain81" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-consumer-81" />
       <extension name="coverage">
@@ -223,15 +297,16 @@
       <option name="presentableId" value="Default" />
       <updated>1585047115725</updated>
       <workItem from="1585047118104" duration="5327000" />
-      <workItem from="1585129908265" duration="1167000" />
+      <workItem from="1585129908265" duration="5254000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6494000" />
+    <option name="totallyTimeSpent" value="10581000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25383994" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -249,14 +324,14 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.40674955" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2895204" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.23758866" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.42806393" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -273,24 +348,10 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-consumer-81/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="741">
           <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-9001/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="35" column="19" selection-start-line="12" selection-start-column="4" selection-end-line="35" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -335,25 +396,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-9001/src/main/java/com/eric/alibaba/ProviderMain9001.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-9002/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-consumer-81/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -388,27 +430,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-9001/src/main/java/com/eric/alibaba/contorller/ProviderController.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="250">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-9002/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-954">
+          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-9001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-9001/src/main/java/com/eric/alibaba/ProviderMain9001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-9001/src/main/java/com/eric/alibaba/contorller/ProviderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-provider-9001/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        <state relative-caret-position="75">
+          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/cloud-provider-9001/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        <state relative-caret-position="166">
+          <caret line="12" column="70" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="70" />
         </state>
       </provider>
     </entry>

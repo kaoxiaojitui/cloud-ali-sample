@@ -12,8 +12,5 @@
         <module name="cloud-provider-9002" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="cloud-alibaba" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

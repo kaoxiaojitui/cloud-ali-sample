@@ -1,15 +1,4 @@
 spring:
-  application:
-    name: provider-service
-  cloud:
-    nacos:
-      discovery:
-        server-addr: 127.0.0.1:8848
-
-server:
-  port: 9001
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
+  profiles:
+#    active: test   #provider-service-dev.yml
+    active: dev

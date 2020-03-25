@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: provider-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yml  #provider-service-dev.yml
+        group: DEV_GROUP
+        #group: TEST_GROUP
+        namespace: 1a789636-7211-403d-874a-8c7ced39fac4
+
+server:
+  port: 9001
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
