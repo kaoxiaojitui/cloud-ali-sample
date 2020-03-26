@@ -3,6 +3,8 @@ package com.eric.alibaba.controller;
 import com.eric.alibaba.service.SentinelService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -14,8 +16,8 @@ public class SentinelController {
     @Autowired
     private SentinelService sentinelService;
 
-    @GetMapping(value = "/hello")
-    public String hello(){
-        return sentinelService.sayHello();
+    @GetMapping(value = "/hello/{p1}")
+    public String hello(@PathVariable String p1){
+        return sentinelService.sayHello(p1);
     }
 }

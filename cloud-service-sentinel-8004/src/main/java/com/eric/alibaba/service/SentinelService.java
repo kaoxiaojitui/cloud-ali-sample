@@ -5,5 +5,5 @@ package com.eric.alibaba.service;
  * @date 2020/3/26
  */
 public interface SentinelService {
-    String sayHello();
+    String sayHello(String p1);
 }
