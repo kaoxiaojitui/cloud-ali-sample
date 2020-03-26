@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: sentinel-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    sentinel:
+      transport:
+        port: 8719 #默认端口8719，若被占用会自动+1
+        dashboard: 127.0.0.1:8080
+
+server:
+  port: 8004
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

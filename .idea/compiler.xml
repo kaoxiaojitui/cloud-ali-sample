@@ -10,6 +10,7 @@
         <module name="cloud-consumer-81" />
         <module name="cloud-provider-9001" />
         <module name="cloud-provider-9002" />
+        <module name="cloud-service-sentinel-8004" />
       </profile>
     </annotationProcessing>
   </component>
