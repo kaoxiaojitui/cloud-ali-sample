@@ -6,4 +6,6 @@ package com.eric.alibaba.service;
  */
 public interface SentinelService {
     String sayHello(String p1);
+
+    String sayHi(String p1);
 }
