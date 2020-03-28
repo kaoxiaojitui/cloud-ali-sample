@@ -9,6 +9,14 @@ spring:
       transport:
         port: 8719 #默认端口8719，若被占用会自动+1
         dashboard: 127.0.0.1:8080
+      datasource:
+        ds1:
+          nacos:
+            server-addr: 127.0.0.1:8848
+            dataId: cloud-sentinel-service
+            groupId: DEFAULT_GROUP
+            data-type: json
+            rule-type: flow
 
 server:
   port: 8004
